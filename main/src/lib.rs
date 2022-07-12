@@ -108,7 +108,7 @@ fn maybe_watch(
             RustGPUShader::Mouse => "mouse-shader",
         };
         let manifest_dir = env!("CARGO_MANIFEST_DIR");
-        let crate_path = [manifest_dir, "shaders", crate_name]
+        let crate_path = [manifest_dir, "..", "shaders", crate_name]
             .iter()
             .copied()
             .collect::<PathBuf>();
