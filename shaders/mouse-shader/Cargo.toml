@@ -1,0 +1,14 @@
+[package]
+name = "mouse-shader"
+version = "0.4.0-alpha.12"
+authors = ["Embark <opensource@embark-studios.com>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+publish = false
+
+[lib]
+crate-type = ["dylib"]
+
+[dependencies]
+shared = { git = "https://github.com/EmbarkStudios/rust-gpu" }
+spirv-std = { git = "https://github.com/EmbarkStudios/rust-gpu", features = ["glam"] }

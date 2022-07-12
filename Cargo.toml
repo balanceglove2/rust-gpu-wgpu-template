@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = [
+  "main",
+  "shaders/reduce",
+  "shaders/sky-shader",
+  "shaders/simplest-shader",
+  "shaders/compute-shader",
+  "shaders/mouse-shader",
+]
